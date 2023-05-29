@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-19T15:47:08 IST" name="Suite" finished-at="2023-05-19T15:47:08 IST" duration-ms="94">
+    <groups>
+      <group name="panda">
+        <method signature="Groups.data2()[pri:0, instance:TestNG7.Groups@4e268090]" name="data2" class="TestNG7.Groups"/>
+        <method signature="Groups.data4()[pri:0, instance:TestNG7.Groups@4e268090]" name="data4" class="TestNG7.Groups"/>
+      </group> <!-- panda -->
+      <group name="dogyyy">
+        <method signature="Groups.data4()[pri:0, instance:TestNG7.Groups@4e268090]" name="data4" class="TestNG7.Groups"/>
+      </group> <!-- dogyyy -->
+    </groups>
+    <test started-at="2023-05-19T15:47:08 IST" name="Test" finished-at="2023-05-19T15:47:08 IST" duration-ms="94">
+      <class name="TestNG7.Groups">
+        <test-method signature="data2()[pri:0, instance:TestNG7.Groups@4e268090]" started-at="2023-05-19T15:47:08 IST" name="data2" finished-at="2023-05-19T15:47:08 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data2 -->
+        <test-method signature="data4()[pri:0, instance:TestNG7.Groups@4e268090]" started-at="2023-05-19T15:47:08 IST" name="data4" finished-at="2023-05-19T15:47:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data4 -->
+      </class> <!-- TestNG7.Groups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
