@@ -12,7 +12,7 @@ public class L_byusing_classname
 		System.setProperty("webdriver.chrome.driver", "./Software/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("file:///C:/Users/Admin/Desktop/Passdata.html");
-		//driver.findElement(By.id("a1")).click();
+		driver.findElement(By.id("a1")).click();
 		driver.findElement(By.className("c1")).sendKeys("sahana");
 
 
