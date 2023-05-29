@@ -15,7 +15,8 @@ public class L_byusing_classname
 		driver.findElement(By.id("a1")).click();
 		driver.findElement(By.className("c1")).sendKeys("sahana");
 		//driver.findElement(By.className("c1")).sendKeys("sahana");
- 
+		//driver.findElement(By.className("c1")).sendKeys("sahana");
+
 	}
 
 }
